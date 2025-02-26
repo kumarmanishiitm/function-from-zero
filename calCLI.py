@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from mylib.calc import add, sub, mul, div, power
 import click
+
 @click.group()
 def cli():
     """This is a simple calculator tool."""
